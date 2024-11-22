@@ -1,0 +1,16 @@
+import java.util.*;
+public class Swap {
+    public static void main(String args[]) {
+        Scanner ak = new Scanner(System.in);
+        int a = ak.nextInt();
+        int b = ak.nextInt();
+        System.out.println("Before swaped value for A = "+a);
+        System.out.println("Before swaped value for B = "+b);
+        a=a+b;
+        b=a-b;
+        a=b-a;
+        System.out.println("After swaped value for A = "+a);
+        System.out.println("After swaped value for B = "+b);
+        
+    }
+}
